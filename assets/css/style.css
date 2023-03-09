@@ -1,0 +1,50 @@
+/* effects the whole body of the webpage */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 1%;
+  box-sizing: border-box;
+}
+
+/* header section */
+#header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 2px solid white;
+}
+
+#headerTitle {
+  color: white;
+}
+
+#headerNav ul li {
+  color: white;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* body section */
+#body {
+  border: 2px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  height: 1000px;
+}
+
+/* footer section */
+#footer {
+  border: 2px solid white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+}
