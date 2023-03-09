@@ -35,9 +35,21 @@ body {
   border: 2px solid white;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   color: white;
   height: 1000px;
+}
+
+#stocks {
+  border: 1px solid white;
+}
+
+#weather {
+  border: 1px solid white;
+}
+
+#crypto {
+  border: 1px solid white;
 }
 
 /* footer section */
